@@ -1,0 +1,42 @@
+<script type="text/javascript“ src="soapclient.js"></script>
+<div data-role="page" id="page1">
+    <div data-role="header">
+         <h1>Search Products:eBay & Walmart</h1>
+
+    </div>
+    <div data-role="content">
+        <table>
+            <tr>
+                <td> <b>ProductName:</b> 
+                </td>
+                <td>
+                    <input id="myproduct" data-bind='value: productName' />
+                </td>
+                <td>
+                    <button id="Search" onclick='searchforProducts()'>Search</button>
+                </td>
+                <td>
+                    <div>
+                        <p><a href="#Cart" data-role="button">My Cart</a>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr><td> <div> 
+                <p> <a href="#Sale" data-role="button">Sale</a> </p>
+                </div>
+                </td> </tr>
+        </table>
+        
+        <div id="results"></div>
+    </div>
+</div>
+<div data-role="page" id="Cart">
+    <div data-role="header"> <a data-rel="back" data-icon="home">Home</a>
+
+         <h1>My Cart</h1>
+
+    </div>
+    <div id="cartresults"></div>
+    <button id="ClearCart" onclick='ClearCart()'>Clear Cart</button>
+</div>

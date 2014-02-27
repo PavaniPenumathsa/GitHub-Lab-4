@@ -1,0 +1,5 @@
+c:\users\sree\documents\visual studio 2012\Projects\WcfService1\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+c:\users\sree\documents\visual studio 2012\Projects\WcfService1\WcfService1\bin\WcfService1.dll
+c:\users\sree\documents\visual studio 2012\Projects\WcfService1\WcfService1\bin\WcfService1.pdb
+c:\users\sree\documents\visual studio 2012\Projects\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+c:\users\sree\documents\visual studio 2012\Projects\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
